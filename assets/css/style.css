@@ -314,8 +314,11 @@ input[type=submit] {
     text-align: center;
   }
 
+}
 
-@mdedia screen and (max-width: 640px) {
+/* This is the part that screws up other max-width media queries so ive left it in comments
+
+  @media screen and (max-width: 640px) {
   #logo {
     width: 100%;
     margin-left: 0px;
@@ -369,4 +372,6 @@ input[type=submit] {
 
 
 }
+
+*/
   
